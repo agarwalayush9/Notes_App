@@ -1,4 +1,5 @@
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -22,7 +23,7 @@
         margin-top: 50px;
     }
 
-    .Create{
+    .Create {
         font-size: x-large;
         border-radius: 8px;
         color: blue;
@@ -30,7 +31,8 @@
         /* text-decoration-line: underline;
         text-decoration-style: wavy; */
     }
-    .mainNote{
+
+    .mainNote {
         text-align: center;
     }
 
@@ -47,7 +49,7 @@
         /* border: 2px solid red ; */
         box-shadow: 2px 2px rgb(150, 204, 255);
     }
-     
+
     #mainNote {
         font-size: x-large;
         box-shadow: 3px 3px rgba(102, 209, 252, 0.596);
@@ -57,12 +59,14 @@
         border-radius: 15px;
         /* border: 2px solid crimson; */
         background-color: rgba(241, 168, 59, 0.226);
-        width: 60%; 
+        width: 60%;
     }
-    .btn , .dltBtn {
+
+    .btn,
+    .dltBtn {
         padding: 8px;
         font-size: medium;
-        font-family: 'Merienda' ,cursive;
+        font-family: 'Merienda', cursive;
         font-weight: bolder;
         margin: 5px;
         border: none;
@@ -72,15 +76,19 @@
         box-shadow: 2px 2px blue;
         cursor: pointer;
     }
-    .btn:hover ,.dltBtn:hover{
+
+    .btn:hover,
+    .dltBtn:hover {
         background-color: aqua;
     }
-   .btn:active, .dltBtn:active{
-       transform: translateX(2px)translateY(2px);
-       box-shadow: none;
-       /* transform: translate3d(2px); */
-   }
-    
+
+    .btn:active,
+    .dltBtn:active {
+        transform: translateX(2px)translateY(2px);
+        box-shadow: none;
+        /* transform: translate3d(2px); */
+    }
+
     nav {
         overflow: hidden;
         background-color: rgba(83, 203, 212, 0.829);
@@ -92,149 +100,170 @@
         float: right;
         width: 70px;
         border: none;
-        padding:4px;
+        padding: 4px;
         margin-top: 1px;
         background-color: rgb(231, 252, 110);
-        font-size:medium ;
+        font-size: medium;
         /* background-color: inherit; */
         color: rgb(255, 80, 11);
-        font-family: 'Merienda' ,cursive;
+        font-family: 'Merienda', cursive;
         font-weight: bolder;
         /* border: 2px solid aqua; */
     }
-    #result:hover{
+
+    #result:hover {
         background-color: azure;
     }
-    #result:active{
+
+    #result:active {
         transform: translateX(2px)translateY(2px);
         box-shadow: none;
     }
+
     #search {
         padding: 3px;
         color: rgb(255, 80, 11);
-        font-family: 'Merienda' ,cursive;
+        font-family: 'Merienda', cursive;
         font-weight: bolder;
         font-size: medium;
         background-color: rgb(231, 252, 110);
         border-radius: 10px;
         width: 180px;
-        border: 2px solid rgba(83, 203, 212, 0.829) ;
+        border: 2px solid rgba(83, 203, 212, 0.829);
         outline: none;
         float: right;
     }
-    button.btn{
-     margin-left: 45.3%;
+
+    button.btn {
+        margin-left: 45.3%;
     }
-    h2{
-        font-family: 'Merienda',cursive;
+
+    h2 {
+        font-family: 'Merienda', cursive;
         font-weight: bold;
         color: rgb(13, 158, 216);
         font-size: 35px;
         /* text-decoration-style: wavy; */
-        text-shadow:3px 2px rgb(230, 180, 114);
+        text-shadow: 3px 2px rgb(230, 180, 114);
         /* text-decoration-line:underline ; */
     }
+
     body {
         background-color: rgba(253, 232, 112, 0.918);
     }
-.switch {
-  position: relative;
-  display: inline-block;
-  width: 50px;
-  height: 25px;
-}
 
-.switch input { 
-  opacity: 0;
-  width: 0;
-  height: 0;
-}
+    .switch {
+        position: relative;
+        display: inline-block;
+        width: 50px;
+        height: 25px;
+    }
 
-.slider {
-  position: absolute;
-  cursor: pointer;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  background-color: rgb(34, 31, 31);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
-footer{
-    margin-top: 6%;
-    padding: 0px;
-    text-align: center;
-}
-footer>a{
-    text-decoration: none;
-    text-decoration-line: none;
-}
-.slider:before {
-  position: absolute;
-  content: "";
-  height: 18px;
-  width: 20px;
-  left: 4px;
-  bottom: 4px;
-  background-color: rgb(245, 250, 204);
-  -webkit-transition: .4s;
-  transition: .4s;
-}
+    .switch input {
+        opacity: 0;
+        width: 0;
+        height: 0;
+    }
 
-input:checked + .slider {
-  background-color: #f36421;
-}
+    .slider {
+        position: absolute;
+        cursor: pointer;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgb(34, 31, 31);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
 
-input:focus + .slider {
-  box-shadow: 0 0 1px #f32121;
-}
+    footer {
+        margin-top: 6%;
+        padding: 0px;
+        /* bottom: 0; */
+        width: 100%;
+        display: inline-block;
+        background-color:khaki ;
+        padding-bottom: 5px;
+        /* display: flex; */
+        text-align: center;
+        /* position: fixed; */
+    }
 
-input:checked + .slider:before {
-  -webkit-transform: translateX(26px);
-  -ms-transform: translateX(26px);
-  transform: translateX(26px);
-}
+    footer>a {
+        text-decoration: none;
+        text-decoration-line: none;
+    }
 
-/* Rounded sliders */
-.slider.round {
-  border-radius: 34px;
-}
+    .slider:before {
+        position: absolute;
+        content: "";
+        height: 18px;
+        width: 20px;
+        left: 4px;
+        bottom: 4px;
+        background-color: rgb(245, 250, 204);
+        -webkit-transition: .4s;
+        transition: .4s;
+    }
 
-.slider.round:before {
-  border-radius: 50%;
-}
-    h4{
+    input:checked+.slider {
+        background-color: #f36421;
+    }
+
+    input:focus+.slider {
+        box-shadow: 0 0 1px #f32121;
+    }
+
+    input:checked+.slider:before {
+        -webkit-transform: translateX(26px);
+        -ms-transform: translateX(26px);
+        transform: translateX(26px);
+    }
+
+    /* Rounded sliders */
+    .slider.round {
+        border-radius: 34px;
+    }
+
+    .slider.round:before {
+        border-radius: 50%;
+    }
+
+    h4 {
         text-align: center;
         font-family: cursive;
         font-size: larger;
         margin-top: 100px;
         text-decoration-style: dashed;
-        text-decoration-line: underline ;
+        text-decoration-line: underline;
         color: rgb(199, 52, 83);
     }
-    .savedCard{
+
+    .savedCard {
         text-align: center;
         margin-top: 2px;
         margin-bottom: 1px;
         font-size: 28px;
-        font-family: 'Merienda',cursive;
-       color: rgb(128, 10, 112);
+        font-family: 'Merienda', cursive;
+        color: rgb(128, 10, 112);
     }
-    .saveNotes{
-       box-shadow: 3px 3px 1px 1px rgb(78, 134, 224);
+
+    .saveNotes {
+        box-shadow: 3px 3px 1px 1px rgb(78, 134, 224);
         float: left;
         max-width: 90%;
         word-wrap: break-word;
-        min-width: 30%;
+        min-width: 20%;
         height: fit-content;
         margin: 10px;
+        width: fit-content;
         padding: 5px;
         /* border: 5px dashed rgb(12, 167, 167); */
         border-radius: 16px;
         background-color: rgba(241, 154, 23, 0.637);
     }
-    .savedText{
+    .savedText {
         text-align: left;
         margin-top: 1px;
         padding: 10px;
@@ -243,7 +272,8 @@ input:checked + .slider:before {
         font-size: larger;
         font-family: cursive;
     }
-    #mode{
+
+    #mode {
         position: absolute;
         /* margin: 10px; */
         margin-left: 5px;
@@ -263,7 +293,7 @@ input:checked + .slider:before {
     <div class="main-content">
         <span class="Create">Create Notes....</span><br><br>
         <div class="mainNote">
-            <input id="topic" type="text" placeholder="Topic of your note" class="topic" ><br>
+            <input id="topic" type="text" placeholder="Topic of your note" class="topic"><br>
             <textarea name="main_note" id="mainNote" cols="80" rows="5" placeholder="Enter Text"
                 class="text"></textarea>
         </div><br>
@@ -274,14 +304,16 @@ input:checked + .slider:before {
         <input id="result" type="button" value="Search">
         <input id="search" type="text" placeholder="Search note">
     </nav>
-    <h2>Saved Notes....</h2>
-    <div id="notes" >
-        
+    <main>
+   <h2>Saved Notes....</h2>
+    <div id="notes">
     </div>
-    <footer>
+</main>
+    <footer >
         <hr>
-    <a href="https://www.linkedin.com/in/ayush-agarwal52" target="_blank">Created By Ayush Agarwal| &copy; 2022 All rights reserved </a>
-</footer>
+        <a href="https://www.linkedin.com/in/ayush-agarwal52" target="_blank">Created By Ayush Agarwal| &copy; 2022 All
+            rights reserved </a>
+    </footer>
     <script src="project1_app.js"></script>
 </body>
 
